@@ -24,7 +24,7 @@ const dataBelanjaan = [
 const listBelanjaan = (barangBelanja) => {
   let summaryBelanja = [];
   for (let x of barangBelanja){
-    let text = "-"+ x.nama +" x " + x.kuantitas;
+    let text = "- "+ x.nama +" x " + x.kuantitas;
     summaryBelanja.push(text);
   }
   return summaryBelanja;
